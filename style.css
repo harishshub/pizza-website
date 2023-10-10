@@ -1,0 +1,132 @@
+#content-text,.gallery,footer{
+    background-color: #000;
+}
+
+#header {
+    background-color: darkred;
+    padding: 20px 0; /* Add padding for spacing */
+}
+
+#logo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo img {
+    border-radius: 50%;
+    width: 180px;
+    height: 100px;
+}
+
+#logo .logo-text {
+    font-family: "PizzaHut Font";
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: black;
+}
+
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1; /* Allow the navigation list to take up available space */
+}
+
+.nav-item {
+    font-family: "PizzaHut Font";
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none; /* Remove default list styles */
+    margin-right: 15px; /* Add some spacing between list items */
+}
+
+.nav-link {
+    color: black !important; /* Set text color to white */
+}
+
+/* Center the "Order Now" button at the bottom and customize its color */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-body .btn {
+    margin-top: auto;
+    background-color: darkred; /* Set your custom color here */
+    border-color: darkred; /* Match the button border color to the background color */
+    color: white; /* Set text color to white */
+}
+
+.card-body .btn:hover {
+    background-color: darkred; /* Change the button color on hover if desired */
+    border-color: darkred;
+}
+
+
+
+/* Add space between cart icon and text in the dropdown menu */
+.dropdown-item i,.nav-link i{
+    margin-right: 10px; /* Adjust the margin to your preference */
+}
+.dropdown-item{
+    word-spacing: 4px;
+}
+.typography-2.capitalize.my-20.mx-10.text-center.heading-hr {
+
+    color: black;
+    font-weight: bold;
+}
+.centered-heading {
+    font-family: "PizzaHut Font";
+    word-spacing: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+.dotted-line {
+    border-top: 3px dotted white ;
+    flex-grow: 1;
+    margin: 0 10px;
+}
+.gallery{
+    padding-top: 20px;
+    display: flex;
+    gap: 1.5%;
+    width: 100%;
+    
+}
+
+
+/* Add these styles to make the footer text white and the background black */
+footer {
+    color: white;
+}
+
+/* Style the links in the footer */
+footer a {
+    color: white;
+}
+
+/* Style the social media icons in the footer */
+footer i {
+    fill: white;
+}
+.footitem{
+    color: white;
+}
+.ms-3{
+    width: 20px;
+    height: 20px;
+}
+#footid{
+    color: red;
+}
